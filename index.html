@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Truco</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <script src="truco.js" charset="utf-8"></script>
+        <script src="deck.js" charset="utf-8"></script>
+        <script src="letsPlay.js" charset="utf-8" defer></script>
+    </head>
+    <body>
+        <div class="container" style="height:100%">
+            <h1 style= "color:red; text-align: center;">TRUCO</h1>
+        <div class="container table">
+            <!-- pc cards -->
+            <div class="row">
+                <div class="col"><img class="card" id="pc1"></div>
+                <div class="col"><img class="card" id="pc2"></div>
+                <div class="col"><img class="card" id="pc3"></div>
+            </div>
+            <!-- cards on table -->
+            <div class="row my-5">
+                <div class="col"><img class="card" id="pcPlayed" src="cards/blank.svg"></div>
+                <div class="col"><img class="card" id="usrPlayed"src="cards/blank.svg"></div>
+            </div>
+            <!-- player cards -->
+            <div class="row">
+                <div class="col"><img class="card" id="usr1"></div>
+                <div class="col"><img class="card" id="usr2"></div>
+                <div class="col"><img class="card" id="usr3"></div>
+            </div>
+            <!-- Play Card buttons -->
+            <div class="row my-1">
+                <div class="col text-center">
+                    <button type="button" id="usrCrd0" class="btn btn-light" onclick="playCard(0)">Play</button>
+                </div>
+                <div class="col text-center">
+                    <button type="button" id="usrCrd1" class="btn btn-light" onclick="playCard(1)">Play</button>
+                </div>
+                <div class="col text-center">
+                    <button type="button" id="usrCrd2" class="btn btn-light" onclick="playCard(2)">Play</button>
+                </div>
+            </div>
+            <!-- Action buttons -->
+            <div class="row my-1">
+                <div class="col text-center">
+                    <button type="button" id="button1" class="btn btn-light">Play</button>
+                </div>
+                <div class="col text-center">
+                    <button type="button" id="button2" class="btn btn-light">Play</button>
+                </div>
+                <div class="col text-center">
+                    <button type="button" id="button3" class="btn btn-light">Play</button>
+                </div>
+            </div>
+        </div>
+         </div> <!-- main div -->
+    </body>
+</html>

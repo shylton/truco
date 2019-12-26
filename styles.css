@@ -1,0 +1,24 @@
+.table{
+    background-color: green;
+    padding: 10px;
+    height: 100%;
+    max-width: 450px;
+}
+.card{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+.btn{
+    display: none;
+}
+#pcPlayed{
+    max-height: 200px;
+    min-height: 100px;
+    min-width: 100px;
+}
+#usrPlayed{
+    max-height: 200px;
+    min-height: 100px;
+    min-width: 100px;
+}
