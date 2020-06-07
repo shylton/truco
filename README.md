@@ -1,4 +1,5 @@
 # truco
-Popular card game from Brazil. See citations for game explanation.
-Built a simpler version of the original game in C++. Working on making a web version of it. 
+Popular card game from Brazil. 
+Built a simpler version of the original game in C++ for a school project. 
+Started working on a web version (far from being completed).
 
